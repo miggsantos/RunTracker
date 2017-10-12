@@ -14,6 +14,7 @@
 		931AC5061F8EDC6D00190394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931AC5051F8EDC6D00190394 /* Assets.xcassets */; };
 		931AC5091F8EDC6D00190394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931AC5071F8EDC6D00190394 /* LaunchScreen.storyboard */; };
 		931AC5291F8FF96A00190394 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AC5281F8FF96A00190394 /* CurrentRunVC.swift */; };
+		931AC52B1F900BB500190394 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931AC52A1F900BB500190394 /* LocationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		931AC5261F8EE40D00190394 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
 		931AC5271F8EE40D00190394 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		931AC5281F8FF96A00190394 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
+		931AC52A1F900BB500190394 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		931AC5131F8EE3B600190394 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				931AC52A1F900BB500190394 /* LocationVC.swift */,
 				931AC4FE1F8EDC6D00190394 /* BeginRunVC.swift */,
 				931AC5001F8EDC6D00190394 /* RunLogVC.swift */,
 				931AC5281F8FF96A00190394 /* CurrentRunVC.swift */,
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931AC52B1F900BB500190394 /* LocationVC.swift in Sources */,
 				931AC5011F8EDC6D00190394 /* RunLogVC.swift in Sources */,
 				931AC4FD1F8EDC6D00190394 /* AppDelegate.swift in Sources */,
 				931AC5291F8FF96A00190394 /* CurrentRunVC.swift in Sources */,

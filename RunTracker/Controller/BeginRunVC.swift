@@ -7,19 +7,51 @@
 //
 
 import UIKit
+import MapKit
 
-class BeginRunVC: UIViewController {
+class BeginRunVC: LocationVC {
 
+    @IBOutlet weak var mapView: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        checkLocationAuthStatus()
+        mapView.delegate = self
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillAppear(_ animated: Bool) {
+        manager?.delegate = self
+        manager?.startUpdatingLocation()
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        manager?.stopUpdatingLocation()
+    }
+    
+    
+    @IBAction func locationCenterButtonPressed(_ sender: Any) {
+        
+        
+    }
+    
 
+}
 
+extension BeginRunVC: CLLocationManagerDelegate {
+    
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if status == .authorizedWhenInUse {
+            
+            checkLocationAuthStatus()
+            
+            mapView.showsUserLocation = true
+            mapView.userTrackingMode = .follow
+            
+            
+        }
+    }
+    
 }
 
