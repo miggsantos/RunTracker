@@ -197,10 +197,10 @@
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
         </scene>
-        <!--View Controller-->
+        <!--Current RunVC-->
         <scene sceneID="kNX-Hc-72s">
             <objects>
-                <viewController id="rcV-3Q-jZ4" sceneMemberID="viewController">
+                <viewController id="rcV-3Q-jZ4" customClass="CurrentRunVC" customModule="RunTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GMS-NH-CMG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
