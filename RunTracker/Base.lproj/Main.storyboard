@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="69" width="375" height="410"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Run" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="VNZ-Tq-59R">
-                                <rect key="frame" x="171.5" y="28" width="32.5" height="21"/>
+                                <rect key="frame" x="172" y="28" width="32.5" height="21"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -101,7 +101,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="JrW-3R-JgH">
-                                <rect key="frame" x="172.5" y="28" width="31" height="21"/>
+                                <rect key="frame" x="173" y="28" width="31" height="21"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -215,7 +215,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On Run" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="O1w-Tq-3o2">
-                                <rect key="frame" x="157" y="28" width="61.5" height="21"/>
+                                <rect key="frame" x="157.5" y="28" width="61.5" height="21"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -284,18 +284,18 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunOutline" translatesAutoresizingMaskIntoConstraints="NO" id="jSs-Qe-yqs">
                                 <rect key="frame" x="40" y="552" width="245" height="75"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Run" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="pM6-EW-V38">
-                                <rect key="frame" x="154.5" y="579.5" width="61.5" height="19"/>
-                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHt-69-Eib">
                                 <rect key="frame" x="253" y="552" width="75" height="75"/>
                                 <state key="normal" image="pauseButton"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Run" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="pM6-EW-V38">
+                                <rect key="frame" x="154" y="579.5" width="61.5" height="19"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunButton" translatesAutoresizingMaskIntoConstraints="NO" id="kQs-nU-fkj">
-                                <rect key="frame" x="55" y="561" width="57" height="57"/>
+                                <rect key="frame" x="75" y="561" width="57" height="57"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -313,7 +313,7 @@
                             <constraint firstItem="kQs-nU-fkj" firstAttribute="centerY" secondItem="jSs-Qe-yqs" secondAttribute="centerY" id="TuX-oV-zyF"/>
                             <constraint firstItem="O1w-Tq-3o2" firstAttribute="top" secondItem="ICn-RW-m5Y" secondAttribute="top" constant="8" id="X0l-aK-5pe"/>
                             <constraint firstItem="KHt-69-Eib" firstAttribute="centerY" secondItem="jSs-Qe-yqs" secondAttribute="centerY" id="YB7-F3-1x9"/>
-                            <constraint firstItem="jSs-Qe-yqs" firstAttribute="leading" secondItem="kQs-nU-fkj" secondAttribute="trailing" constant="-72" id="ZJp-US-fXn"/>
+                            <constraint firstItem="jSs-Qe-yqs" firstAttribute="leading" secondItem="kQs-nU-fkj" secondAttribute="trailing" constant="-92" id="ZJp-US-fXn"/>
                             <constraint firstItem="Gsi-JA-Iku" firstAttribute="top" secondItem="JSq-JP-x1S" secondAttribute="bottom" constant="42" id="c5v-yr-edd"/>
                             <constraint firstItem="JSq-JP-x1S" firstAttribute="top" secondItem="DzW-LM-MiN" secondAttribute="bottom" constant="42.5" id="ctz-5l-gyO"/>
                             <constraint firstItem="pM6-EW-V38" firstAttribute="centerY" secondItem="jSs-Qe-yqs" secondAttribute="centerY" id="e8N-BI-xo1"/>
@@ -327,6 +327,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ICn-RW-m5Y"/>
                     </view>
+                    <connections>
+                        <outlet property="sliderImageView" destination="kQs-nU-fkj" id="2R2-hE-CAE"/>
+                        <outlet property="swipeBGImageView" destination="jSs-Qe-yqs" id="e6s-nJ-DSR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HFs-y0-7ej" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
