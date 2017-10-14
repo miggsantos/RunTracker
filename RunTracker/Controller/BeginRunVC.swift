@@ -18,6 +18,7 @@ class BeginRunVC: LocationVC {
 
         checkLocationAuthStatus()
         mapView.delegate = self
+
         
     }
 
