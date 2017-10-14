@@ -21,6 +21,7 @@
 		935B479F1F9255C300F24E6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B479E1F9255C300F24E6E /* Constants.swift */; };
 		935B47A11F92679300F24E6E /* RunLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B47A01F92679300F24E6E /* RunLogCell.swift */; };
 		935B47A31F9288C800F24E6E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B47A21F9288C800F24E6E /* Location.swift */; };
+		935B47A51F928ED600F24E6E /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B47A41F928ED600F24E6E /* RealmConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		935B479E1F9255C300F24E6E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		935B47A01F92679300F24E6E /* RunLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogCell.swift; sourceTree = "<group>"; };
 		935B47A21F9288C800F24E6E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		935B47A41F928ED600F24E6E /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				935B479E1F9255C300F24E6E /* Constants.swift */,
+				935B47A41F928ED600F24E6E /* RealmConfig.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				931AC5291F8FF96A00190394 /* CurrentRunVC.swift in Sources */,
 				935B479D1F92443700F24E6E /* Run.swift in Sources */,
 				935B47A11F92679300F24E6E /* RunLogCell.swift in Sources */,
+				935B47A51F928ED600F24E6E /* RealmConfig.swift in Sources */,
 				931AC4FF1F8EDC6D00190394 /* BeginRunVC.swift in Sources */,
 				935B479F1F9255C300F24E6E /* Constants.swift in Sources */,
 			);
